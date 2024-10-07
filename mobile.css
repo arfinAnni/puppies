@@ -1,0 +1,495 @@
+@media screen and (max-width:650px)
+{
+
+
+
+
+
+
+/*menu start*/
+.menu{
+	width: 100%;
+	height: 70px;
+	background:white;
+	color: black;
+	position: fixed;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	
+
+}
+.logo img{
+	width: 30%;
+	height: 90%;
+	margin: 5px 60px;
+	
+}
+
+
+.logo h1{
+	width: 80%;
+	height: 70px;
+	margin-left: 30%;
+	margin-bottom: 15px;
+	font-size: 56px;
+	margin-top: 10px;
+	line-height: 70px;
+}
+.menu-item{
+	width: 60%;
+	height: 70px;
+	float: left;
+	padding-left: 0%;
+	color: black;
+	display: none;
+
+}
+
+
+.menu-item ul li {
+width: 140px;
+text-decoration: none;
+font-size: 15px;
+line-height: 70px;
+float: left;
+padding-left: 10px;
+color: black;
+font-family:verdana;
+list-style: none;
+height: 70px;
+}
+
+.menu-item ul li:hover {
+	background: darkgoldenrod;
+
+}
+.menu-item ul li:hover a{
+	color: white;
+}
+
+.menu-item ul li  a {
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	
+}
+.menu-item ul li ul li{
+	width: 140px;
+	padding: 10px;
+	background: darkgoldenrod;
+	margin-left: -10px;
+	
+
+}
+.menu-item ul li ul{
+	display: none;
+}
+.menu-item ul li ul li:hover{
+	background:black;
+}
+.menu-item ul li:hover ul {
+	
+	display: inline-block;
+
+}
+
+
+.mobile{
+
+
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+	display: inline-block;
+
+
+}
+
+
+
+.mobile ul li {
+width: 100%;	
+font-size: 15px;
+line-height: 40px;
+float: left;
+color: black;
+font-family:verdana;
+list-style: none;
+background: white;
+border-top: 1px solid darkgoldenrod;;
+
+}
+
+
+
+
+.mobile ul li a {
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	padding-left: 60px;
+
+
+	}
+
+
+
+.icon{
+	width: 10%;
+	height: 70px;
+	display: inline-block;
+	float: right;
+	line-height: 70px;
+	font-size: 30px;
+	margin-right: 10px;
+
+
+}
+/*menu closed*/
+
+/*hero start*/
+.hero{
+	width: 100%;
+	height: 700px;
+	background:url(img/d.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	animation-name: none;
+	
+
+}
+span {
+	color: darkgoldenrod;
+	font-size: 56px;
+}
+.hero div{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background: rgba(255, 255, 255, .7);
+
+}
+
+
+
+.hero2 h1{
+	font-size: 46px;
+	text-align: center;
+	padding-top: 0px;
+	
+	color: black;
+
+}
+.hero2 p{
+	text-align: center;
+	font-size: 22px;
+	padding-left: 80px;
+	padding-top: 20px;
+	font-family:serif;
+	color: black;
+
+}
+.btn{
+	width: 180px;
+	height: 50px;
+	background:darkgoldenrod;
+	margin-left: 180px;
+	padding: 10px;
+	margin-top: 40px;
+	border-radius: 25px;
+	color: white;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(255, 0, 0, .3);
+}
+.btn i{
+	color: white;
+	padding-left: 10px;
+}
+.bu{
+	width: 185px;
+	height: 150px;
+	background: darkgoldenrod;
+	color: white;
+	float: left;
+	margin-left: 25px;
+	border-radius: 80px 50px 50px 10px;
+	margin-top: 30px;
+	border: none;
+}
+.bu1{
+	width: 185px;
+	height: 150px;
+	background: darkgoldenrod;
+	color: white;
+	float: left;
+	margin-left: 120px!important;
+	border-radius:80px 50px 50px 10px; 
+	margin-top: -40px;
+	border: none;
+}
+
+
+
+/*hero closed
+
+
+/*abbout start*/
+.about{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+
+.about h1{
+	font-size: 38px;
+	text-align: center;
+	margin-top: 70px;
+}
+.about div{
+	width: 80%;
+	height: 530px;
+	float: left;
+	margin-left: 60px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+	margin-top: 70px;
+	text-align: center;
+}
+.about div img{
+	width: 70%;
+	height: 50%;
+	margin-top: 15px;
+
+}
+
+/*about closed*/
+
+/*header start*/
+
+.header{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 60px;
+}
+.header div{
+	width: 80%;
+	height: 600px;
+	margin: 30px;
+	float: left;
+}
+.header h1{
+	font-size: 38px;
+	text-align: center;
+	margin-top: 70px;
+}
+.header div img{
+	width: 80%;
+	height: 100%;
+	margin-left: 60px;
+}
+.text{
+	text-align: left;
+	padding-left:60px;
+}
+.text h2{
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+/*header closed*/
+
+
+/*boxer start*/
+.boxer{
+	width: 100%;
+	height: auto;
+	
+	float: left;
+	margin-bottom: 70px;
+}
+.boxer h1{
+	font-size: 38px;
+	text-align: center;
+	margin-top: 270px;
+}
+.boxer div{
+	width: 80%;
+	height: 200px;
+	box-shadow: 10px 5px 15px rgba(0, 0, 0, .1);
+	margin-left: 60px;
+	float: left;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 30px;
+}
+/*boxer closed*/
+
+
+/*dog faamily start*/
+.dog{
+	width: 100%;
+	height: 690px;
+	float: left;
+	background: whitesmoke;
+
+	
+}
+.dog h1{
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 60px;
+	padding-top: 40px;
+}
+
+.dog div{
+	width: 80%;
+	height: 500px;
+	background: white;
+	margin-left: 60px;
+	border: 2px solid darkgoldenrod;
+
+}
+
+.dog div img{
+	width: 50%;
+	height: 100%;
+}
+.dog div h3{
+	float: right;
+	margin-top: 220px;
+	margin-right:0px;
+
+	font-family: cursive;
+
+
+}
+.more{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: whitesmoke;
+	padding-bottom: 70px;
+
+}
+.more div{
+	width: 80%;
+	height: 400px;
+	float: left;
+	margin-left:60px!important;
+	margin: 5% 20% ;
+	background: white;
+	border: 2px solid darkgoldenrod;
+}
+.more div img{
+	width: 100%;
+	height: 80%;
+}
+.more div p{
+	padding-top: 5px;
+}
+
+
+
+
+
+
+/*dog family closed*/
+
+
+
+
+
+
+
+/*book start*/
+.book{
+	width: 100%;
+	height: 390px;
+	background: url(img/b.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.b{
+	width: 100%;
+	height: 390px;
+	background: rgba(0, 0, 0, .6);
+}
+.b h1{
+	font-size: 38px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-left: 00px;
+
+}
+.b button{
+	
+	width: 150px;
+	height: 60px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	border: none;
+
+}
+
+
+/*book closed*/
+
+
+/*footer start*/
+.foot{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #1A1514;
+	color: white;
+
+}
+.foot div{
+	width: 80%;
+	height: 250px;
+	float: left;
+	text-align: left;
+}
+.foot h3{
+	padding-left: 130px;
+	padding-top: 100px;
+	font-family: cursive;
+}
+.foot h1{
+	font-size: 58px;
+	text-align: left;
+	color: darkgoldenrod;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.foot i{
+	padding-top: 20px;
+	padding-right: 10px;
+
+}
+.foot button{
+	width: 250px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: darkgoldenrod;
+}
+.i{
+	padding-left: 100px;
+}
+
+/*footer closed*/
+
+
+}

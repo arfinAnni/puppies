@@ -1,0 +1,551 @@
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-size: 22px;
+	scroll-behavior: smooth;
+
+
+
+
+
+}
+h2{
+	font-family:cursive;
+	color: darkgoldenrod;
+	font-size: 38px;
+
+}
+h1{
+	font-family: cursive!important;
+}
+button {
+	font-family: cursive!important;
+}
+
+
+
+p {
+	font-family: cursive!important;
+	padding: 20px;
+}
+
+/*menu start*/
+.menu{
+	width: 100%;
+	height: 70px;
+	background:white;
+	color: black;
+	position: fixed;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	
+
+}
+.logo img{
+	width: 30%;
+	height: 90%;
+	margin: 5px 60px;
+	
+}
+
+
+.logo h1{
+	width: 80%;
+	height: 70px;
+	margin-left: 30%;
+	margin-bottom: 15px;
+	font-size: 56px;
+	margin-top: 10px;
+	line-height: 70px;
+}
+.menu-item{
+	width: 60%;
+	height: 70px;
+	float: left;
+	padding-left: 0%;
+	color: black;
+
+}
+
+
+.menu-item ul li {
+width: 140px;
+text-decoration: none;
+font-size: 15px;
+line-height: 70px;
+float: left;
+padding-left: 10px;
+color: black;
+font-family:verdana;
+list-style: none;
+height: 70px;
+}
+
+.menu-item ul li:hover {
+	background: darkgoldenrod;
+
+}
+.menu-item ul li:hover a{
+	color: white;
+}
+
+.menu-item ul li  a {
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	
+}
+.menu-item ul li ul li{
+	width: 140px;
+	padding: 10px;
+	background: darkgoldenrod;
+	margin-left: -10px;
+	
+
+}
+.menu-item ul li ul{
+	display: none;
+}
+.menu-item ul li ul li:hover{
+	background:black;
+}
+.menu-item ul li:hover ul {
+	
+	display: inline-block;
+
+}
+
+
+.icon{
+	width: 10%;
+	height: 70px;
+	display: none;
+	float: right;
+	line-height: 70px;
+	font-size: 30px;
+	margin-right: 10px;
+
+
+}
+/*menu closed*/
+
+
+
+
+
+/*hero start*/
+.hero{
+	width: 100%;
+	height: 750px;
+	background:url(img/d.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	animation-name: dog;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 5s;
+	animation-direction:left;
+
+
+
+}
+@keyframes dog {
+
+	0%{
+	background:url(img/d.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+
+
+	}
+	25%{
+	background:url(img/b.jpeg);
+	background-size: cover;
+	
+	}
+	50%{
+	background:url(img/d2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	
+
+	100%{
+	background:url(img/d6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+	}
+
+
+}
+span {
+	color: darkgoldenrod;
+	font-size: 86px;
+}
+.hero div{
+	width: 50%;
+	height: 750px;
+	float: left;
+	background: rgba(255, 255, 255, .7);
+	text-align: center;
+
+}
+
+
+
+.hero2 h1{
+	font-size: 76px;
+	text-align: left;
+	padding-top: 180px;
+	padding-left: 80px;
+	color: black;
+
+}
+.hero2 p{
+	text-align: left;
+	font-size: 22px;
+	padding-left: 80px;
+	padding-top: 20px;
+	font-family:serif;
+	color: black;
+
+}
+.btn{
+	width: 180px;
+	height: 50px;
+	background:darkgoldenrod;
+	margin-left: 80px;
+	padding: 10px;
+	margin-top: 40px;
+	border-radius: 25px;
+	color: white;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(255, 0, 0, .3);
+}
+
+.btn:hover{
+	scale: 1.1;
+	background: white;
+	color: darkgoldenrod;
+	transition: 1s;
+}
+.btn:hover i{
+	color: darkgoldenrod;
+}
+
+.btn i{
+	color: white;
+	padding-left: 10px;
+}
+.bu{
+	width: 185px;
+	height: 150px;
+	background: darkgoldenrod;
+	color: white;
+	float: left;
+	margin-left: 25px;
+	border-radius: 80px 50px 50px 10px;
+	margin-top: -40px;
+	border: none;
+}
+.bu1{
+	width: 185px;
+	height: 150px;
+	background: darkgoldenrod;
+	color: white;
+	float: left;
+	margin-left: 120px!important;
+	border-radius:80px 50px 50px 10px; 
+	margin-top: -40px;
+	border: none;
+}
+
+
+
+/*hero closed
+
+
+/*abbout start*/
+.about{
+	width: 100%;
+	height: 800px;
+	float: left;
+}
+
+
+.about h1{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 70px;
+}
+.about div{
+	width: 20%;
+	height: 530px;
+	float: left;
+	margin-left: 60px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+	margin-top: 70px;
+	text-align: center;
+}
+.about div img{
+	width: 70%;
+	height: 50%;
+	margin-top: 15px;
+
+}
+
+/*about closed*/
+
+/*header start*/
+
+.header{
+	width: 100%;
+	height: 1000px;
+	float: left;
+}
+.header div{
+	width: 45%;
+	height: 800px;
+	margin: 30px;
+	float: left;
+}
+.header h1{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 70px;
+}
+.header div img{
+	width: 80%;
+	height: 100%;
+	margin-left: 60px;
+}
+.text{
+	text-align: left;
+	padding-left:60px;
+}
+.text h2{
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+/*header closed*/
+
+
+/*boxer start*/
+.boxer{
+	width: 100%;
+	height: 560px;
+	background: ;
+	float: left;
+}
+.boxer h1{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 70px;
+}
+.boxer div{
+	width: 25%;
+	height: 200px;
+	box-shadow: 10px 5px 15px rgba(0, 0, 0, .1);
+	margin-left: 90px;
+	float: left;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 30px;
+}
+/*boxer closed*/
+
+
+/*dog faamily start*/
+.dog{
+	width: 100%;
+	height: 690px;
+	float: left;
+	background: whitesmoke;
+
+	
+}
+.dog h1{
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 60px;
+	padding-top: 40px;
+}
+
+.dog div{
+	width: 600px;
+	height: 500px;
+	background: white;
+	margin-left: 460px;
+	border: 2px solid darkgoldenrod;
+
+}
+
+.dog div img{
+	width: 50%;
+	height: 100%;
+}
+.dog div h3{
+	float: right;
+	margin-top: 220px;
+	margin-right: 80px;
+	font-family: cursive;
+
+
+}
+.more{
+	width: 100%;
+	height: 950px;
+	float: left;
+	background: whitesmoke;
+
+}
+.more div{
+	width: 22%;
+	height: 400px;
+	float: left;
+	margin-left: 23px!important;
+	margin: 20px;
+	background: white;
+	border: 2px solid darkgoldenrod;
+}
+.more div img{
+	width: 100%;
+	height: 80%;
+}
+.more div p{
+	padding-top: 5px;
+}
+
+
+
+
+
+
+/*dog family closed*/
+
+
+
+
+
+
+
+/*book start*/
+.book{
+	width: 100%;
+	height: 390px;
+	background: url(img/b.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.b{
+	width: 100%;
+	height: 390px;
+	background: rgba(0, 0, 0, .6);
+}
+.b h1{
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-left: 00px;
+
+}
+.b button{
+	
+	width: 180px;
+	height: 60px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	border: none;
+
+}
+.b button:hover{
+	scale: 1.1;
+	background: white;
+	color: darkgoldenrod;
+	transition: 1s;
+}
+
+
+
+/*book closed*/
+
+
+/*footer start*/
+.foot{
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: #1A1514;
+	color: white;
+
+}
+.foot div{
+	width: 33%;
+	height: 300px;
+	float: left;
+	text-align: left;
+}
+.foot h3{
+	padding-left: 130px;
+	padding-top: 100px;
+	font-family: cursive;
+}
+.foot h1{
+	font-size: 58px;
+	text-align: left;
+	color: darkgoldenrod;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.foot i{
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+
+
+
+.foot button{
+	width: 250px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: darkgoldenrod;
+}
+.i-d{
+	padding-left: 140px!important;
+}
+
+.foot button:hover{
+	scale: 1.1;
+	background: white;
+	color: darkgoldenrod;
+	transition: 1s;
+}
+
+
+
+
+
+
+
+/*footer closed*/
